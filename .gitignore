@@ -1,0 +1,14 @@
+# Keep local Python environments and editor settings out of the repository.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.DS_Store
+Thumbs.db
+
+# The raw photos are downloaded by the data script and should not be pushed to GitHub.
+data/raw/
+
+# Ignore generated split CSVs. Training recreates them from the dataset.
+data/splits/
